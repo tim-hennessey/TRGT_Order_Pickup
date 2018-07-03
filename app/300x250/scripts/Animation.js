@@ -37,8 +37,7 @@ app.Animation = (function () {
 	}
 	// --------------------------------------------------------------------------------------
 	function start() {
-        tl1.from(cta, .5, {opacity:0})
-            .from(bag, 1, {y: 200, ease: Cubic.easeOut},"-=.5")
+        tl1.from(bag, 1, {y: 200, ease: Cubic.easeOut},"-=.5")
             .from(books, 1, {rotation:40, x:20, y: 200, ease: Cubic.easeOut})
 
             .from(glue, 1, {rotation:-40, x:20, y: 200, ease: Cubic.easeOut},"-=.6")
@@ -50,7 +49,7 @@ app.Animation = (function () {
             .from(erasers, 1, {rotation:-40, x:-50, y: 200, ease: Cubic.easeOut},"-=1")
 
 
-            .from(logo, 1, {y: -89, ease: Cubic.easeInOut})
+            .from(logo, 1, {y: -93, ease: Cubic.easeInOut})
             .from(txt1, 1, {y: -95, ease: Cubic.easeInOut},"-=1")
 	}
 
