@@ -1,0 +1,122 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+#banner {
+    background: #78dfd4;
+    position: absolute;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    left: 50%;
+    top: 50%;
+    margin-left: -$banner-width / 2;
+    margin-top: -$banner-height / 2;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    #guide {
+        top: 0;
+        left: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+        opacity:0;
+    }
+
+    #txt1 {
+        top: 0;
+        left: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #bag {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+
+
+
+
+        #pens {
+            bottom: 295px;
+            right: -18px;
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+        }
+
+        #crayons {
+            bottom: 200px;
+            right: 102px;
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+        }
+
+        #notes {
+            bottom: 285px;
+            right: -52px;
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+        }
+
+        #scissors {
+            bottom: 262px;
+            right: 72px;
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+        }
+
+        #books {
+            bottom: 0;
+            right: -70px;
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            //opacity:0;
+        }
+
+        #bag_open {
+            bottom: 0;
+            right: -70px;
+            transform: translate3d(0, 0, 0.1px);
+            position: absolute;
+            //opacity:0;
+        }
+    }
+
+    #cta {
+        left: 35px;
+        bottom: 15px;
+        width: 85px;
+        height: 26px;
+        border-radius: 5px;
+        background-color: #cc0000;
+        overflow: hidden;
+        position: absolute;
+
+        #cta_txt_ovr {
+            left: 0;
+            top: 0;
+            opacity:0;
+            position: absolute;
+        }
+
+        #cta_txt {
+            left: 0;
+            top: 0;
+            position: absolute;
+        }
+    }
+
+
+}

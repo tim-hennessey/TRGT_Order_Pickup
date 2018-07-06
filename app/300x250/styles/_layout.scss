@@ -26,6 +26,14 @@ body {
         width: 100%;
     }
 
+    #guide {
+        top: 0;
+        left: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+        opacity:0;
+    }
+
     #txt1 {
         top: 0;
         left: 0;
@@ -46,43 +54,43 @@ body {
         }
 
         #glue {
-            bottom: 0;
-            right: 0;
+            bottom: 153px;
+            right: 26px;
             transform: translate3d(0, 0, 0.1px);
             position: absolute;
         }
 
         #erasers {
-            bottom: 0;
+            bottom: 105px;
             right: 0;
             transform: translate3d(0, 0, 0.1px);
             position: absolute;
         }
 
         #pens {
-            bottom: 0;
-            right: 0;
+            bottom: 130px;
+            right: 83px;
             transform: translate3d(0, 0, 0.1px);
             position: absolute;
         }
 
         #crayons {
-            bottom: 0;
-            right: 0;
+            bottom: 67px;
+            right: 148px;
             transform: translate3d(0, 0, 0.1px);
             position: absolute;
         }
 
         #notes {
-            bottom: 0;
-            right: 0;
+            bottom: 125px;
+            right: 60px;
             transform: translate3d(0, 0, 0.1px);
             position: absolute;
         }
 
         #scissors {
-            bottom: 0;
-            right: 0;
+            bottom: 102px;
+            right: 130px;
             transform: translate3d(0, 0, 0.1px);
             position: absolute;
         }

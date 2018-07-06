@@ -11,7 +11,6 @@ app.Animation = (function () {
     var pens = document.getElementById('pens');
     var erasers = document.getElementById('erasers');
     var books = document.getElementById('books');
-
     var txt1 = document.getElementById('txt1');
     var bag = document.getElementById('bag');
     var cta = document.getElementById('cta');
