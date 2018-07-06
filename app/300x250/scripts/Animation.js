@@ -12,7 +12,6 @@ app.Animation = (function () {
     var erasers = document.getElementById('erasers');
     var books = document.getElementById('books');
 
-    var logo = document.getElementById('logo');
     var txt1 = document.getElementById('txt1');
     var bag = document.getElementById('bag');
     var cta = document.getElementById('cta');
@@ -49,8 +48,7 @@ app.Animation = (function () {
             .from(erasers, 1, {rotation:-40, x:-50, y: 200, ease: Cubic.easeOut},"-=1")
 
 
-            .from(logo, 1, {y: -93, ease: Cubic.easeInOut})
-            .from(txt1, 1, {y: -95, ease: Cubic.easeInOut},"-=1")
+            .from(txt1, 1, {y: -92, ease: Cubic.easeInOut})
 	}
 
 	// --------------------------------------------------------------------------------------

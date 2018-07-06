@@ -33,20 +33,6 @@ body {
         position: absolute;
     }
 
-    #logo {
-        top: 103px;
-        left: 0;
-        transform: translate3d(0, 0, 0.1px);
-        position: absolute;
-    }
-
-    //#img1 {
-    //    bottom: 0;
-    //    left: 0;
-    //    transform: translate3d(0, 0, 0.1px);
-    //    position: absolute;
-    //}
-
     #bag {
         bottom: 0;
         right: 0;
@@ -117,8 +103,8 @@ body {
     }
 
     #cta {
-        left: 20px;
-        bottom: 20px;
+        left: 15px;
+        bottom: 15px;
         width: 85px;
         height: 25px;
         border-radius: 5px;
