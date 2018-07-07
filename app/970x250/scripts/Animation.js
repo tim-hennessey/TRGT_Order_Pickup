@@ -6,7 +6,15 @@ app.Animation = (function () {
     var tl1 = new TimelineMax();
 
     var txt1 = document.getElementById('txt1');
-    var img1 = document.getElementById('img1');
+
+    var bag = document.getElementById('bag');
+    var book = document.getElementById('book');
+    var crayons = document.getElementById('crayons');
+    var notes = document.getElementById('notes');
+    var pens = document.getElementById('pens');
+    var ruler = document.getElementById('ruler');
+    var erasers = document.getElementById('erasers');
+    // var img1 = document.getElementById('img1');
 
     var cta = document.getElementById('cta');
     var cta_txt = document.getElementById('cta_txt');
@@ -30,8 +38,14 @@ app.Animation = (function () {
 	}
 	// --------------------------------------------------------------------------------------
 	function start() {
-        tl1.from(img1, 1, {y: 250, ease: Cubic.easeInOut})
-            .from(txt1, 1, {y: -130, ease: Cubic.easeInOut})
+        tl1.from(bag, 1, {y: 250, ease: Cubic.easeOut})
+            .from(book, 1, {y: 500, ease: Cubic.easeOut}, "-=.8")
+            .from(crayons, 1, {y: 250, ease: Cubic.easeOut}, "-=1")
+            .from(notes, 1, {y: 250, ease: Cubic.easeOut}, "-=1")
+            .from(pens, 1, {y: 250, ease: Cubic.easeOut}, "-=.8")
+            .from(ruler, 1, {y: 250, ease: Cubic.easeOut}, "-=.8")
+            .from(erasers, 1, {y: 250, ease: Cubic.easeOut}, "-=.9")
+            .from(txt1, 1, {y: -130, ease: Cubic.easeInOut});
 	}
 
 	// --------------------------------------------------------------------------------------

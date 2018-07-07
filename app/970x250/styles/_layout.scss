@@ -41,12 +41,61 @@ body {
         position: absolute;
     }
 
-    #img1 {
-        bottom: 0;
-        right: 168px;
+    #bag {
+        top: 0;
+        right: 173px;
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
+
+    #book {
+        top: 27px;
+        right: 447px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #crayons {
+        top: 30px;
+        right: 392px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #notes {
+        top: 35px;
+        right: 352px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #pens {
+        top: 107px;
+        right: 345px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #ruler {
+        top: 213px;
+        right: 353px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #erasers {
+        top: 215px;
+        right: 549px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    //#img1 {
+    //    bottom: 0;
+    //    right: 168px;
+    //    transform: translate3d(0, 0, 0.1px);
+    //    position: absolute;
+    //}
 
     #cta {
         right: 20px;
