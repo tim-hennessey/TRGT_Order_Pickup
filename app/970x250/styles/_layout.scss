@@ -41,65 +41,19 @@ body {
         position: absolute;
     }
 
-    #bag {
+    #img1 {
         bottom: 0;
-        right: 0;
+        right: 168px;
+        transform: translate3d(0, 0, 0.1px);
         position: absolute;
-
-
-
-
-        #pens {
-            bottom: 246px;
-            right: 45px;
-            transform: translate3d(0, 0, 0.1px);
-            position: absolute;
-        }
-
-        #crayons {
-            bottom: 140px;
-            right: 190px;
-            transform: translate3d(0, 0, 0.1px);
-            position: absolute;
-        }
-
-        #notes {
-            bottom: 230px;
-            right: 8px;
-            transform: translate3d(0, 0, 0.1px);
-            position: absolute;
-        }
-
-        #scissors {
-            bottom: 210px;
-            right: 153px;
-            transform: translate3d(0, 0, 0.1px);
-            position: absolute;
-        }
-
-        #books {
-            bottom: 0;
-            right: -1px;
-            transform: translate3d(0, 0, 0.1px);
-            position: absolute;
-            //opacity:0;
-        }
-
-        #bag_open {
-            bottom: 0;
-            right: 0;
-            transform: translate3d(0, 0, 0.1px);
-            position: absolute;
-            //opacity:0;
-        }
     }
 
     #cta {
-        left: 15px;
-        bottom: 15px;
-        width: 85px;
-        height: 26px;
-        border-radius: 5px;
+        right: 20px;
+        bottom: 105px;
+        width: 124px;
+        height: 37px;
+        border-radius: 7px;
         background-color: #cc0000;
         overflow: hidden;
         position: absolute;

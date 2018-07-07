@@ -43,7 +43,7 @@ app.Animation = (function () {
             .from(crayons, 1, {rotation:60, x:100, y: 300, ease: Cubic.easeOut},"-=1")
 
 
-            .from(txt1, 1, {y: -140, ease: Cubic.easeInOut})
+            .from(txt1, 1, {y: -82, ease: Cubic.easeInOut})
 	}
 
 	// --------------------------------------------------------------------------------------
